@@ -1,0 +1,9 @@
+create index if not exists block_progress_block_id_idx on public.block_progress (block_id);
+create index if not exists certificates_exam_attempt_id_idx on public.certificates (exam_attempt_id);
+create index if not exists certificates_user_id_idx on public.certificates (user_id);
+create index if not exists content_blocks_phase_id_idx on public.content_blocks (phase_id);
+create index if not exists course_phases_course_id_idx on public.course_phases (course_id);
+create index if not exists courses_created_by_idx on public.courses (created_by);
+create index if not exists enrollments_assigned_by_idx on public.enrollments (assigned_by);
+create index if not exists enrollments_user_id_idx on public.enrollments (user_id);
+create index if not exists exam_attempts_user_id_idx on public.exam_attempts (user_id);

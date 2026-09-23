@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="18" fill="#003b8e"/>
+  <text x="32" y="39" font-family="Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle" fill="white">EI</text>
+  <circle cx="48" cy="16" r="6" fill="#ffd200"/>
+</svg>
